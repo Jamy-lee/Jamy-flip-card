@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#landing {
+  display: flex;
+  min-height: 100vh;
+}
+.landing-left {
+  width: 50%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+.landing-right {
+  background: url(background2.avif);
+  background-size: cover;
+  padding: 50px;
+  width: 50%;
+  align-content: center;
+  padding-top: 200px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+  font-size: 100px;
+  text-align: center;
+}
+.paragraph {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: rgb(90, 88, 88);
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #b5838d;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 150px;
+}
+h2 {
+  text-align: center;
+  color: rgb(90, 88, 88);
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+  color: #b5838d;
+}
+
+#li {
+  text-align: start;
+}
+.button {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  color: #b5838d;
+}
+.nav {
+  position: fixed;
+  margin-left: 5px;
+  margin-top: 75px;
+  padding-right: 10px;
+  margin-left: 0;
+  position: right;
+  font-size: 20px;
+  color: white;
+  justify-content: flex-end;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
+  opacity: 0.7;
+}
+
+ul {
+  background: white;
+  margin-top: 85px;
+  width: 100vw;
+  height: 70px;
+  margin-right: 0px;
+  position: right;
+  font-size: 20px;
+  color: white;
+  justify-content: flex-end;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.7;
+}
+.sub-title {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+#About {
+  height: 100vh;
+  background: whitesmoke;
+  text-align: center;
+  color: white;
+
+  width: 100vw;
+}
+#Work-Edu {
+  background: url(...);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  height: 100vh;
+  text-align: left;
+  margin-left: 10px;
+  padding-left: 20px;
+  width: 100vw;
+}
+
+#Skills {
+  height: 100vh;
+  width: 100vw;
+  margin-left: 10px;
+  padding-left: 20px;
+  background: whitesmoke;
+  width: 100vw;
+}
+
+#Projects {
+  height: 130vh;
+  width: 100vw;
+  background: url(...);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+#Testimonials {
+  height: 100vh;
+  background: whitesmoke;
+  width: 100vw;
+}
+
+#Contact {
+  height: max-content;
+  height: 100vh;
+  width: 100vw;
+}
+#li {
+  text-align: start;
+}
+.container {
+  border: rgb(90, 88, 88);
+  border-width: 1px;
+}
+.card {
+  width: 5%;
+}
+.list-group-item,
+.list-group {
+  width: 280px !important;
+}
+.container {
+  justify-content: space-between;
+}
